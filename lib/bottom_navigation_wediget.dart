@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:twitter_demo/pages/alert.dart';
 import 'package:twitter_demo/pages/home.dart';
-import 'package:twitter_demo/pages/myhome.dart';
+import 'package:twitter_demo/pages/message.dart';
+
 import 'package:twitter_demo/pages/serach.dart';
 
 class BottomNaviWidget extends StatefulWidget {
@@ -20,7 +21,7 @@ class _BottomNaviWidgetState extends State<BottomNaviWidget> {
       ..add(HomePage())
       ..add(SerachPage())
       ..add(AlertPage())
-      ..add(MyHomePage());
+      ..add(MessagePage());
   }
 
   @override
@@ -51,7 +52,7 @@ class _BottomNaviWidgetState extends State<BottomNaviWidget> {
     itemList.add(BottomNavigationBarItem(
         icon: Icon(Icons.search), title: Text("search")));
     itemList.add(BottomNavigationBarItem(
-        icon: Icon(Icons.add_alert), title: Text("alert")));
+        icon: Icon(Icons.notifications), title: Text("alert")));
     itemList.add(BottomNavigationBarItem(
         icon: Icon(Icons.email), title: Text("message")));
     return itemList;
