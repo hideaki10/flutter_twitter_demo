@@ -74,10 +74,9 @@ class _MyHomePageState extends State<MyHomePage> {
     // than having to individually change instances of widgets.
     return MaterialApp(
       title: "etete",
-      
+      theme: ThemeData.dark(),
       home: BottomNaviWidget(),
     );
 // This trailing comma makes auto-formatting nicer for build methods.
-    
   }
 }
