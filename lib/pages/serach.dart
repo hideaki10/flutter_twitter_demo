@@ -10,9 +10,7 @@ class _SerachPageState extends State<SerachPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("search"),
-      ),
+
     );
   }
 }

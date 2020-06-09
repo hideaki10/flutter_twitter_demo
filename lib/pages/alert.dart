@@ -10,9 +10,7 @@ class _AlertPageState extends State<AlertPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("alert"),
-      ),
+
     );
   }
 }
